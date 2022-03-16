@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Lab1: 자기소개</title>
+        <meta name="description" content="인터넷 프로그래밍 1차 과제입니다.">
+        
+        <style type="text/css">
+            table
+            {
+                border-collapse: collapse;
+                border: 2px solid black;
+            }
+
+            td, th
+            {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1>안녕하세요, 김규 입니다.</h1>
+            </header>
+
+            <aside>
+                <h2>목차</h2>
+                <ol>
+                    <li>이름에 대하여</li>
+                    <li>자주 방문하는 웹사이트에 대하여</li>
+                    <li>취미에 대하여</li>
+                </ol>
+            </aside>
+
+            <article>
+                <h2>이름에 대하여</h2>
+                <img src="nametag.png" width="320" height="320" alt="Illust of a blank name tag.">
+                <p>  이름이 외자라서 편한 점이 있는데, 그건 이름을 한자로 쓰기가 쉽다는 것입니다. 
+                    요즘에도 이러는지는 모르겠지만, 제가 어렸을 때는 본인 이름을 한자로 써 보라는 선생님들이 꼭 있었습니다. 
+                    이런 상황에서 저는 두 글자만 외우면 되기 때문에 큰 이점을 가집니다.
+                </p>
+                <p>
+                    하지만 장점만 있는 것은 아닙니다. 제 이름의 단점은 말할 때 드러나는데, 
+                    누군가가 제 이름을 받아적어야 하는 상황에서 "성함이 어떻게 되시죠?" 라고 물었을 때 "김, 규" 라고 답을 하면 
+                    상대방은 무조건 오지 않는 세 번째 글자를 기다려야 합니다. 
+                    그렇다고 "김규요." 라고 하기에는 그것도 세 글자라 문제가 됩니다. 
+                    이 문제를 해결하기 위해서 저는 "김규, 외자에요." 라고 하는데, 
+                    이는 여섯 글자라는 점에서 굉장히 비효율적이라고 할 수 있습니다.
+                </p>
+            </article>
+
+            <article>
+                <h2>자주 방문하는 웹사이트에 대하여</h2>
+                <p>
+                    아래는 제가 자주 방문하는 웹사이트 목록입니다.
+                </p>
+                <ul>
+                    <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    <li><a href="https://comic.naver.com/index" target="_blank">네이버 만화</a></li>
+                    <li><a href="https://www.learnus.org/" target="_blank">LearnUs</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>취미에 대하여</h2>
+                <img src="naverwebtoon.png" width="240" height="240" alt="Logo: white 'naver webtoon' text and green background.">
+                <p>
+                    제 취미 중 하나는 웹툰 감상입니다.<br>
+                    공포, 스릴러 장르에 약하고 판타지 장르에 강한 편입니다.<br>
+                    아래 표는 제가 보는 웹툰 중 일부입니다.
+                </p>
+
+                <table>
+                    <caption><strong>웹툰에 대하여</strong></caption>
+                        <thead>
+                            <tr>
+                                <td rowspan="2">&nbsp;</td>
+                                <th id="webtoon" colspan="2">웹툰 정보</td>
+                            </tr>
+                            <tr>
+                                <th id="name">제목</th>
+                                <th id="writer">작가</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th id="mon" rowspan="2">월요일</th>
+                                <td headers="webtoon mon name">잔불의 기사</td>
+                                <td headers="webtoon mon writer">환댕</td>
+                            </tr>
+                            <tr>
+                                <td headers="webtoon mon name">꿈의 기업</td>
+                                <td headers="webtoon mon writer">문지현</td>
+                            </tr>
+
+                            <tr>
+                                <th id="tue">화요일</th>
+                                <td headers="webtoon tue name">대학원 탈출일지</td>
+                                <td headers="webtoon tue writer">요다</td>
+                            </tr>
+
+                            <tr>
+                                <th id="wed" rowspan="4">수요일</th>
+                                <td headers="webtoon wed name">전지적 독자 시점</td>
+                                <td headers="webtoon wed writer">UMI / 슬리피-C / 싱숑</td>
+                            </tr>
+                            <tr>
+                                <td headers="webtoon wed name">화산귀환</td>
+                                <td headers="webtoon wed writer">LICO / 비가</td>
+                            </tr>
+                            <tr>
+                                <td headers="webtoon wed name">일렉시드</td>
+                                <td headers="webtoon wed writer">손제호 / 제나</td>
+                            </tr>
+                            <tr>
+                                <td headers="webtoon wed name">블랙홀과 3만원</td>
+                                <td headers="webtoon wed writer">김규삼 / 혜원</td>
+                            </tr>
+                            
+                            <tr>
+                                <th id="thu" rowspan="2">목요일</th>
+                                <td headers="webtoon thu name">무사만리행</td>
+                                <td headers="webtoon thu writer">운 / 배민기</td>
+                            </tr>
+                            <tr>
+                                <td headers="webtoon thu name">마왕까지 한 걸음</td>
+                                <td headers="webtoon thu name">윤홍</td>
+                            </tr>
+
+                            <tr>
+                                <th id="fri">금요일</th>
+                                <td headers="webtoon fri name">데드퀸</td>
+                                <td headers="webtoon fri writer">김규삼</td>
+                            </tr>
+
+                            <tr>
+                                <th id="sat">토요일</th>
+                                <td headers="webtoon sat name">어글리후드</td>
+                                <td headers="webtoon sat writer">미애</td>
+                            </tr>
+
+                            <tr>
+                                <th id="sun" rowspan="2">일요일</th>
+                                <td headers="webtoon sun name">오로지 너를 이기고 싶어</td>
+                                <td headers="webtoon sun writer">아마도지 / 사삭</td>
+                            </tr>
+                            <tr>
+                                <td headers="webtoon sun name">제타</td>
+                                <td headers="webtoon sun writer">하지</td>
+                            </tr>
+                        </tbody>
+                </table>
+            </article>
+        </main>
+    </body>
+</html>
