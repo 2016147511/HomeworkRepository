@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>회원가입</title>
+        <meta name="description" content="인터넷 프로그래밍 lab2">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1>Shop147511</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">전체 상품</li>
+                    <div class="right">
+                        <li><a href="signup.html">회원가입</a></li>
+                        <li><a href="login.html">로그인</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <div class="login-signup-box">
+                <ul>
+                    <li ><a href="login.html">로그인</a></li>
+                    <li class="selected-menu">회원가입</li>
+                </ul>
+
+                <!-- Signup input form -->
+                <form method="get">
+                    <p>
+                        <label>아이디*</label><br>
+                        <input class="login-signup-input" id="id" name="id" type="text" placeholder="4-16자 영문, 숫자, 언더바(_)" minlength="4" maxlength="16" pattern="\w{4,16}" autofocus required>
+                    </p>
+
+                    <p>
+                        <label>비밀번호*</label><br>
+                        <input class="login-signup-input" id="password" name="password" type="password" placeholder="최소 8자 이상" minlength="8" required>
+                    </p>
+
+                    <p>
+                        <label>비밀번호 확인*</label><br>
+                        <input class="login-signup-input" id="password2" name="password" type="password" required>
+                    </p>
+
+                    <p>
+                        <label>이름*</label><br>
+                        <input class="login-signup-input" id="realname" name="realname" type="text" required>
+                    </p>
+
+                    <p>
+                        <label>이메일*</label><br>
+                        <input class="login-signup-input" id="email" name="email" type="email" placeholder="name@domain.com" required>
+                    </p>
+
+                    <p>
+                        <label>출생년도</label><br>
+                        <input class="login-signup-input" id="birthyear" name="birthyear" type="number" min="1900" max="2022" step="1">
+                    </p>
+
+                    <p>
+                        <label>성별</label><br>
+                        <input class="login-signup-input" id="gender" name="gender" type="text" list="genderlist">
+                        <datalist id="genderlist">
+                            <option value="남자">
+                            <option value="여자">
+                            <option value="비밀">
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <input class="login-signup-submit" type="submit" value="가입하기">
+                    </p>
+                </form>
+            </div>
+
+        </main>
+    </body>
+</html>
