@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>로그인</title>
+        <meta name="description" content="인터넷 프로그래밍 lab2">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Shop147511</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">전체 상품</li>
+                <div class="right">
+                    <li><a href="signup.html">회원가입</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <main>
+            
+            <div class="login-signup-box">
+                <ul>
+                    <li class="selected-menu">로그인</li>
+                    <li><a href="signup.html">회원가입</a></li>
+                </ul>
+                
+                <!-- Login input form -->
+                <form method="get">
+                    <p>
+                        <input class="login-signup-input" id="id" name="id" type="text" placeholder="아이디" required autofocus>
+                    </p>
+                    <p>
+                        <input class="login-signup-input" id="password" name="password" type="password" placeholder="비밀번호" required>
+                    </p>
+                    <p>
+                        <input class="login-signup-submit" type="submit" value="로그인">
+                    </p>
+                </form>
+
+            </div>
+        </main>
+    </body>
+</html>
