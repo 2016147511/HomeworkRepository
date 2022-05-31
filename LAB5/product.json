@@ -1,0 +1,74 @@
+[
+    {
+        "type": "캔",
+        "name": "코코팜 화이트 요구르트",
+        "price": "1000",
+        "ml": "340",
+        "img": "cocopalmwhite.jpg"
+    },
+
+    {
+        "type": "종이팩",
+        "name": "델몬트 망고 드링크",
+        "price": "400",
+        "ml": "190",
+        "img": "delmontemango.jpg"
+    },
+
+    {
+        "type": "종이팩",
+        "name": "듬뿍 약콩 두유",
+        "price": "900",
+        "ml": "190",
+        "img": "fnbsoymilk.jpg"
+    },
+
+    {
+        "type": "페트병",
+        "name": "홈플러스시그니처 헛개차",
+        "price": "700",
+        "ml": "500",
+        "img": "hoveniatea.jpg"
+    },
+
+    {
+        "type": "유리병",
+        "name": "비타파워",
+        "price": "500",
+        "ml": "100",
+        "img": "vitapower.jpg"
+    },
+
+    {
+        "type": "페트병",
+        "name": "아침에주스 오렌지",
+        "price": "1100",
+        "ml": "210",
+        "img": "morningorange.jpg"
+    },
+
+    {
+        "type": "종이팩",
+        "name": "서울유유 초콜릿",
+        "price": "800",
+        "ml": "200",
+        "img": "chocomilk.jpg"
+    },
+
+    {
+        "type": "종이팩",
+        "name": "바나나 퐁당",
+        "price": "500",
+        "ml": "190",
+        "img": "bananamilk.jpg"
+    },
+
+    {
+        "type": "종이팩",
+        "name": "피크닉 사과맛",
+        "price": "300",
+        "ml": "200",
+        "img": "picnicapple.jpg"
+    }
+
+]
