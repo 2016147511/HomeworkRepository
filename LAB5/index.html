@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Shop147511</title>
+        <meta name="description" content="인터넷 프로그래밍 lab5">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Shop147511</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">전체 상품</li>
+                <div class="right">
+                    <li><a href="signup.html">회원가입</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>상품 검색</h2>
+            <form>
+                <div class="search-form">
+                    <div class="search">
+                        <label>키워드 검색</label>
+                        <input id="keyword" type="text" placeholder="키워드를 입력하세요">
+                    </div>
+                    <div class="search">
+                        <label>카테고리 검색</label>
+                        <select id="category">
+                            <option selected>전체</option>
+                            <option>캔</option>
+                            <option>종이팩</option>
+                            <option>페트병</option>
+                            <option>유리병</option>
+                        </select>
+                    </div>
+                    <button id="search-button">검색하기</button>
+                </div>
+            </form>
+
+            <div id="search-result">
+
+            </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>

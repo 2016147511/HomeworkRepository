@@ -69,6 +69,53 @@
         "price": "300",
         "ml": "200",
         "img": "picnicapple.jpg"
-    }
+    },
 
+    {
+        "type": "페트병",
+        "name": "초록매실",
+        "price": "1200",
+        "ml": "500",
+        "img": "greenplum.jpg"
+    },
+
+    {
+        "type": "페트병",
+        "name": "아침햇살",
+        "price": "2000",
+        "ml": "500",
+        "img": "morningsun.jpg"
+    },
+
+    {
+        "type": "캔",
+        "name": "스프라이트",
+        "price": "600",
+        "ml": "190",
+        "img": "sprite.jpg"
+    },
+
+    {
+        "type": "페트병",
+        "name": "트레비 레몬",
+        "price": "1100",
+        "ml": "500",
+        "img": "trevi.jpg"
+    },
+
+    {
+        "type": "페트병",
+        "name": "백산수",
+        "price": "600",
+        "ml": "500",
+        "img": "water.jpg"
+    },
+
+    {
+        "type": "페트병",
+        "name": "태양의 마테차",
+        "price": "1300",
+        "ml": "500",
+        "img": "matetea.jpg"
+    }
 ]
